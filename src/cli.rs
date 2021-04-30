@@ -20,8 +20,8 @@ pub enum Action {
 
 #[derive(Debug, StructOpt)]
 #[structopt(
-name = "Rusty Journal",
-about = "A command line to-do app written in Rust"
+    name = "Rusty Journal",
+    about = "A command line to-do app written in Rust"
 )]
 pub struct CommandLineArgs {
     #[structopt(subcommand)]
